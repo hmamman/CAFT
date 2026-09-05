@@ -6,14 +6,13 @@ CAFT is a constraint-aware fairness-testing framework for tabular machine-learni
 
 ## Installation
 
-Use Python 3.10
+Use Python 3.8 or higher and ensure that pip package manager is installed
 
 ```bash
 python -m venv .venv
 # Windows PowerShell: .venv\Scripts\Activate.ps1
 # macOS/Linux: source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install "tensorflow==2.15.*" numpy pandas scikit-learn joblib pyarrow scipy matplotlib networkx shap lime torch
+pip install -r requirements.txt
 ```
 
 ## Run CAFT
